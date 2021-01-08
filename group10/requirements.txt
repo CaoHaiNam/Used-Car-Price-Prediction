@@ -5,3 +5,5 @@ seaborn
 tensorflow
 textdistance
 keras
+scrapy
+kafka

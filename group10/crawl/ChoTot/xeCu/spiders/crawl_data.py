@@ -29,9 +29,9 @@ class OldCarSpider(scrapy.Spider):
         price = price[0]
         price = (int(''.join(e for e in price if e.isnumeric())))
         sample = {'car_info': car_info, 'price': price}
-        yield sample
-        # samples.append(sample)
-        # print(samples)
+        # yield sample
+        samples.append(sample)
+        print(samples)
         # yield sample
         # print(sample)
         # self.data['data'].append(sample)
