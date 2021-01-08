@@ -11,7 +11,10 @@ Dữ liệu được crawl trên oto.com, xe.chotot.com,
 Dữ liệu thô được lưu trữ trong thư mục dataset, dưới dạng file csv.
 Do số lượng page của từng trang web là rất lớn, nên chúng em chỉ thực hiện demo dữ liệu trên số lượng page nhỏ.
 Chạy code crawl
-
+Crawl trên trang ChoTot
+dùng lệnh cd vào đến thư mục ChoTot: cd crawl\ChoTot
+sau đó chạy lệnh: scrapy crawl crawl_ChoTot
+Dữ liệu crawl về sẽ được hiển thị trên terminal
 
 Phần 3: Lập trình
 Được chia làm 3 file, file tiền xử lý dữ liệu (preprocess.ipynb), file huấn luyện mô hình (train.pynb), và file dự đoán (predict.ipynb).
