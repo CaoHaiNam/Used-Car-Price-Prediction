@@ -1,7 +1,7 @@
 Project sử dụng Python phiên bản 3.8.5-64 bit. 
 Chương trình được chạy trên hệ điều hành Ubuntu 20.04. 
 
-Phần 1: cài đặt thư viên
+Phần 1: cài đặt thư viện
 File requirements.txt: tên các thư viện cần được cài đặt.
 Cài đặt thư viên bằng câu lệnh trên termimal:
 python3 -m pip install -r requirements.txt
