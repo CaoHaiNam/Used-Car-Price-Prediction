@@ -4,7 +4,7 @@ from scrapy import Request
 
 class OldCarSpider(scrapy.Spider):
 
-    name = "crawl_data"
+    name = "crawl_ChoTot"
     start_urls = [''.join(['https://xe.chotot.com/mua-ban-oto?page=', str(i)]) for i in range(5)]
 
     def parse(self, response):
