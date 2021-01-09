@@ -24,6 +24,9 @@ B3: tạo Producer của Kafka để scapy ghi dữ liệu lên
 B4: tạo consumer ghi ra file .txt
 B5: chạy câu lệnh: scrapy carmudi để bắt đầu crawl
 
+3. Crawl trên trang Oto.com
+Chạy các cell trong file Oto.ipynb
+
 Phần 3: Lập trình
 Được chia làm 3 file, file tiền xử lý dữ liệu (preprocess.ipynb), file huấn luyện mô hình (train.pynb), và file dự đoán (predict.ipynb).
 Các giá trị trong các cell đã được thiết lập sẵn, chỉ cần chạy là được.
